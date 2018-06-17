@@ -1,0 +1,24 @@
+{
+  "name": "easy-startrt",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "axios": "^0.18.0",
+    "mobx": "^5.0.2",
+    "mobx-react": "^5.2.3",
+    "react": "^16.4.1",
+    "react-dom": "^16.4.1",
+    "react-router-dom": "^4.3.1",
+    "react-scripts": "1.1.4"
+  },
+  "scripts": {
+    "start": "react-app-rewired start",
+    "build": "react-app-rewired build",
+    "test": "react-app-rewired test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "devDependencies": {
+    "react-app-rewire-mobx": "^1.0.8",
+    "react-app-rewired": "^1.5.2"
+  }
+}
