@@ -70,6 +70,14 @@ import Index from './component/Index';
         return data ;
     }
 ```
+## 自带 SCSS 支持
+
+可直接 import .scss 文件。
 
 
+## 自带 i18n 支持
+
+使用 react-i18n 进行国际化，配置见 ./i18n.js ，语言包文件在 ./public/locales 下，为 Json 格式。
+
+## 默认添加 DocumentTitle 设置页面 title
 

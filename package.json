@@ -4,10 +4,15 @@
   "private": true,
   "dependencies": {
     "axios": "^0.18.0",
+    "i18next": "^11.3.6",
+    "i18next-browser-languagedetector": "^2.2.1",
+    "i18next-xhr-backend": "^1.5.1",
     "mobx": "^5.0.2",
     "mobx-react": "^5.2.3",
     "react": "^16.4.1",
+    "react-document-title": "^2.0.3",
     "react-dom": "^16.4.1",
+    "react-i18next": "^7.8.1",
     "react-router-dom": "^4.3.1",
     "react-scripts": "1.1.4"
   },
@@ -18,7 +23,10 @@
     "eject": "react-scripts eject"
   },
   "devDependencies": {
+    "node-sass": "^4.9.0",
     "react-app-rewire-mobx": "^1.0.8",
-    "react-app-rewired": "^1.5.2"
+    "react-app-rewire-sass-modules": "^1.1.5",
+    "react-app-rewired": "^1.5.2",
+    "sass-loader": "^7.0.3"
   }
 }
